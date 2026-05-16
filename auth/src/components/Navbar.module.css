@@ -1,0 +1,32 @@
+.nav {
+  background: #1e293b;
+  padding: 15px 40px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.NavLink {
+  color: white;
+  text-decoration: none;
+  margin-right: 20px;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+.NavLink:hover{
+    color: #38bdf8;
+}
+
+.login {
+  margin-right: 20px;
+}
+
+.logout{
+  background-color: transparent;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+}
